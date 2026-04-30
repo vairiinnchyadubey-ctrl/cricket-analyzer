@@ -678,6 +678,7 @@ HTML = r"""<!doctype html>
     overflow-x:hidden; min-height: 100vh; cursor: default;
   }
   /* Floating cricket ball that drifts */
+  @media (hover: none) { .float-ball { display: none; } }
   .float-ball {
     position: fixed; pointer-events: none; z-index: 0;
     width: 120px; height: 120px; border-radius: 50%;
@@ -722,8 +723,9 @@ HTML = r"""<!doctype html>
   .glass-soft { background: linear-gradient(180deg, rgba(255,255,255,0.025), rgba(255,255,255,0.015)); border: 1px solid rgba(255,255,255,0.06); }
   .grain::before { content:''; position:fixed; inset:0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.92' numOctaves='3' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E"); pointer-events:none; z-index:1; }
   .seam { background-image: linear-gradient(90deg, transparent 50%, color-mix(in srgb, var(--t1) 60%, transparent) 50%); background-size: 8px 1px; height:1px; }
-  .gradient-text { background: linear-gradient(135deg, var(--t1-2) 0%, var(--t1) 50%, var(--t2) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .gradient-text-mix { background: linear-gradient(135deg, var(--t1) 0%, var(--t2) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  /* Force a bright midpoint so text never goes too dark on the deep bg */
+  .gradient-text { background: linear-gradient(135deg, #ffd17a 0%, color-mix(in srgb, var(--t1) 65%, #ffd17a) 50%, #ff8e72 100%); -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: 0 0 24px rgba(255,209,122,0.15); }
+  .gradient-text-mix { background: linear-gradient(135deg, color-mix(in srgb, var(--t1) 60%, #ffd17a) 0%, color-mix(in srgb, var(--t2) 60%, #ff8e72) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .anim-fade { animation: fade .8s ease both; }
   @keyframes fade { from { opacity:0; transform: translateY(8px) } to { opacity:1; transform: none } }
   .anim-slide { animation: slide 1s cubic-bezier(.2,.8,.2,1) both; }
@@ -733,13 +735,17 @@ HTML = r"""<!doctype html>
   details summary::-webkit-details-marker { display:none; }
 
   .team-orb {
-    width: 96px; height: 96px; border-radius: 50%;
+    width: 76px; height: 76px; border-radius: 50%;
+    font-size: 1.3rem;
     background: radial-gradient(circle at 30% 30%, var(--c2), var(--c1));
     display: flex; align-items: center; justify-content: center;
-    font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.6rem;
+    font-family: 'Space Grotesk', sans-serif; font-weight: 700;
     color: white; letter-spacing: 0.02em; position: relative; isolation: isolate;
     box-shadow: 0 18px 40px -10px rgba(0,0,0,.6), inset 0 -8px 20px rgba(0,0,0,0.4), inset 0 6px 14px rgba(255,255,255,0.18);
     transition: transform .4s cubic-bezier(.2,.8,.2,1);
+  }
+  @media (min-width: 640px) {
+    .team-orb { width: 96px; height: 96px; font-size: 1.6rem; }
   }
   .team-orb::before {
     content:''; position:absolute; inset:0; border-radius:50%;
@@ -839,10 +845,10 @@ HTML = r"""<!doctype html>
     <div class="flex items-center gap-2 text-[11px] uppercase tracking-[0.3em] gradient-text-mix font-semibold anim-fade">
       <span class="seam w-10"></span> Match-day intelligence
     </div>
-    <h1 class="mt-6 font-display text-5xl sm:text-7xl lg:text-8xl font-bold leading-[0.95] max-w-5xl anim-fade">
+    <h1 class="mt-6 font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] max-w-5xl anim-fade">
       Reading the <span class="gradient-text typing">pitch</span><br/> before the toss.
     </h1>
-    <p class="mt-7 max-w-2xl text-lg text-white/70 leading-relaxed anim-fade">
+    <p class="mt-6 max-w-2xl text-base sm:text-lg text-white/70 leading-relaxed anim-fade">
       An ML model trained on three seasons of ball-by-ball IPL data. Live form, venue tendencies,
       head-to-head and toss history feed every prediction. Honest accuracy — no vibes.
     </p>
