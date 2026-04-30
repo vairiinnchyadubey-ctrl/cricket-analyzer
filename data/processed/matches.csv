@@ -1,0 +1,260 @@
+match_id,season,date,venue,city,team1,team2,toss_winner,toss_decision,winner,win_by_runs,win_by_wickets,result,method,player_of_match
+1359475,2023,2023-03-31,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Chennai Super Kings,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,5.0,,,Rashid Khan
+1359476,2023,2023-04-01,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",Chandigarh,Punjab Kings,Kolkata Knight Riders,Kolkata Knight Riders,field,Punjab Kings,7.0,,,D/L,Arshdeep Singh
+1359477,2023,2023-04-01,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Delhi Capitals,Delhi Capitals,field,Lucknow Super Giants,50.0,,,,MA Wood
+1359478,2023,2023-04-02,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Rajasthan Royals,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Rajasthan Royals,72.0,,,,JC Buttler
+1359479,2023,2023-04-02,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Mumbai Indians,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Royal Challengers Bangalore,,8.0,,,F du Plessis
+1359480,2023,2023-04-03,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Lucknow Super Giants,Lucknow Super Giants,field,Chennai Super Kings,12.0,,,,MM Ali
+1359481,2023,2023-04-04,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,6.0,,,B Sai Sudharsan
+1359482,2023,2023-04-05,"Barsapara Cricket Stadium, Guwahati",Guwahati,Punjab Kings,Rajasthan Royals,Rajasthan Royals,field,Punjab Kings,5.0,,,,NT Ellis
+1359483,2023,2023-04-06,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Kolkata Knight Riders,81.0,,,,SN Thakur
+1359484,2023,2023-04-07,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Sunrisers Hyderabad,Lucknow Super Giants,Sunrisers Hyderabad,bat,Lucknow Super Giants,,5.0,,,KH Pandya
+1359485,2023,2023-04-08,"Barsapara Cricket Stadium, Guwahati",Guwahati,Rajasthan Royals,Delhi Capitals,Delhi Capitals,field,Rajasthan Royals,57.0,,,,YBK Jaiswal
+1359486,2023,2023-04-08,"Wankhede Stadium, Mumbai",Mumbai,Mumbai Indians,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,,7.0,,,RA Jadeja
+1359487,2023,2023-04-09,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Kolkata Knight Riders,Gujarat Titans,bat,Kolkata Knight Riders,,3.0,,,RK Singh
+1359488,2023,2023-04-09,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Punjab Kings,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Sunrisers Hyderabad,,8.0,,,S Dhawan
+1359489,2023,2023-04-10,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bangalore,Lucknow Super Giants,Lucknow Super Giants,field,Lucknow Super Giants,,1.0,,,N Pooran
+1359490,2023,2023-04-11,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,6.0,,,RG Sharma
+1359491,2023,2023-04-12,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Rajasthan Royals,Chennai Super Kings,Chennai Super Kings,field,Rajasthan Royals,3.0,,,,R Ashwin
+1359492,2023,2023-04-13,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",Chandigarh,Punjab Kings,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,6.0,,,MM Sharma
+1359493,2023,2023-04-14,"Eden Gardens, Kolkata",Kolkata,Sunrisers Hyderabad,Kolkata Knight Riders,Kolkata Knight Riders,field,Sunrisers Hyderabad,23.0,,,,HC Brook
+1359494,2023,2023-04-15,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bangalore,Delhi Capitals,Delhi Capitals,field,Royal Challengers Bangalore,23.0,,,,V Kohli
+1359495,2023,2023-04-15,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Punjab Kings,Punjab Kings,field,Punjab Kings,,2.0,,,Sikandar Raza
+1359496,2023,2023-04-16,"Wankhede Stadium, Mumbai",Mumbai,Kolkata Knight Riders,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,5.0,,,VR Iyer
+1359497,2023,2023-04-16,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,3.0,,,SO Hetmyer
+1359498,2023,2023-04-17,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Chennai Super Kings,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Chennai Super Kings,8.0,,,,DP Conway
+1359499,2023,2023-04-18,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Mumbai Indians,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Mumbai Indians,14.0,,,,C Green
+1359500,2023,2023-04-19,"Sawai Mansingh Stadium, Jaipur",Jaipur,Lucknow Super Giants,Rajasthan Royals,Rajasthan Royals,field,Lucknow Super Giants,10.0,,,,MP Stoinis
+1359501,2023,2023-04-20,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",Chandigarh,Royal Challengers Bangalore,Punjab Kings,Punjab Kings,field,Royal Challengers Bangalore,24.0,,,,Mohammed Siraj
+1359502,2023,2023-04-20,"Arun Jaitley Stadium, Delhi",Delhi,Kolkata Knight Riders,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,,4.0,,,I Sharma
+1359503,2023,2023-04-21,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Sunrisers Hyderabad,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,,7.0,,,RA Jadeja
+1359504,2023,2023-04-22,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Gujarat Titans,Lucknow Super Giants,Gujarat Titans,bat,Gujarat Titans,7.0,,,,MM Sharma
+1359505,2023,2023-04-22,"Wankhede Stadium, Mumbai",Mumbai,Punjab Kings,Mumbai Indians,Mumbai Indians,field,Punjab Kings,13.0,,,,SM Curran
+1359507,2023,2023-04-23,"Eden Gardens, Kolkata",Kolkata,Chennai Super Kings,Kolkata Knight Riders,Kolkata Knight Riders,field,Chennai Super Kings,49.0,,,,AM Rahane
+1359506,2023,2023-04-23,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bangalore,Rajasthan Royals,Rajasthan Royals,field,Royal Challengers Bangalore,7.0,,,,GJ Maxwell
+1359508,2023,2023-04-24,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Delhi Capitals,Sunrisers Hyderabad,Delhi Capitals,bat,Delhi Capitals,7.0,,,,AR Patel
+1359509,2023,2023-04-25,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Mumbai Indians,Mumbai Indians,field,Gujarat Titans,55.0,,,,A Manohar
+1359510,2023,2023-04-26,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Kolkata Knight Riders,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Kolkata Knight Riders,21.0,,,,CV Varun
+1359511,2023,2023-04-27,"Sawai Mansingh Stadium, Jaipur",Jaipur,Rajasthan Royals,Chennai Super Kings,Rajasthan Royals,bat,Rajasthan Royals,32.0,,,,YBK Jaiswal
+1359512,2023,2023-04-28,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",Chandigarh,Lucknow Super Giants,Punjab Kings,Punjab Kings,field,Lucknow Super Giants,56.0,,,,MP Stoinis
+1359513,2023,2023-04-29,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,7.0,,,J Little
+1359514,2023,2023-04-29,"Arun Jaitley Stadium, Delhi",Delhi,Sunrisers Hyderabad,Delhi Capitals,Sunrisers Hyderabad,bat,Sunrisers Hyderabad,9.0,,,,MR Marsh
+1359515,2023,2023-04-30,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Punjab Kings,Chennai Super Kings,bat,Punjab Kings,,4.0,,,DP Conway
+1359516,2023,2023-04-30,"Wankhede Stadium, Mumbai",Mumbai,Rajasthan Royals,Mumbai Indians,Rajasthan Royals,bat,Mumbai Indians,,6.0,,,YBK Jaiswal
+1359517,2023,2023-05-01,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Royal Challengers Bangalore,Lucknow Super Giants,Royal Challengers Bangalore,bat,Royal Challengers Bangalore,18.0,,,,F du Plessis
+1359518,2023,2023-05-02,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Delhi Capitals,Gujarat Titans,Delhi Capitals,bat,Delhi Capitals,5.0,,,,Mohammed Shami
+1359519,2023,2023-05-03,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Chennai Super Kings,Chennai Super Kings,field,,,,no result,,
+1359520,2023,2023-05-03,"Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",Chandigarh,Punjab Kings,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,6.0,,,Ishan Kishan
+1359521,2023,2023-05-04,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Kolkata Knight Riders,Sunrisers Hyderabad,Kolkata Knight Riders,bat,Kolkata Knight Riders,5.0,,,,CV Varun
+1359522,2023,2023-05-05,"Sawai Mansingh Stadium, Jaipur",Jaipur,Rajasthan Royals,Gujarat Titans,Rajasthan Royals,bat,Gujarat Titans,,9.0,,,Rashid Khan
+1359524,2023,2023-05-06,"Arun Jaitley Stadium, Delhi",Delhi,Royal Challengers Bangalore,Delhi Capitals,Royal Challengers Bangalore,bat,Delhi Capitals,,7.0,,,PD Salt
+1359523,2023,2023-05-06,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Mumbai Indians,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,,6.0,,,M Pathirana
+1359525,2023,2023-05-07,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Lucknow Super Giants,Lucknow Super Giants,field,Gujarat Titans,56.0,,,,Shubman Gill
+1359526,2023,2023-05-07,"Sawai Mansingh Stadium, Jaipur",Jaipur,Rajasthan Royals,Sunrisers Hyderabad,Rajasthan Royals,bat,Sunrisers Hyderabad,,4.0,,,GD Phillips
+1359527,2023,2023-05-08,"Eden Gardens, Kolkata",Kolkata,Punjab Kings,Kolkata Knight Riders,Punjab Kings,bat,Kolkata Knight Riders,,5.0,,,AD Russell
+1359528,2023,2023-05-09,"Wankhede Stadium, Mumbai",Mumbai,Royal Challengers Bangalore,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,6.0,,,SA Yadav
+1359529,2023,2023-05-10,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Delhi Capitals,Chennai Super Kings,bat,Chennai Super Kings,27.0,,,,RA Jadeja
+1359530,2023,2023-05-11,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,9.0,,,YBK Jaiswal
+1359531,2023,2023-05-12,"Wankhede Stadium, Mumbai",Mumbai,Mumbai Indians,Gujarat Titans,Gujarat Titans,field,Mumbai Indians,27.0,,,,SA Yadav
+1359532,2023,2023-05-13,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Lucknow Super Giants,Sunrisers Hyderabad,bat,Lucknow Super Giants,,7.0,,,PN Mankad
+1359533,2023,2023-05-13,"Arun Jaitley Stadium, Delhi",Delhi,Punjab Kings,Delhi Capitals,Delhi Capitals,field,Punjab Kings,31.0,,,,P Simran Singh
+1359534,2023,2023-05-14,"Sawai Mansingh Stadium, Jaipur",Jaipur,Royal Challengers Bangalore,Rajasthan Royals,Royal Challengers Bangalore,bat,Royal Challengers Bangalore,112.0,,,,WD Parnell
+1359535,2023,2023-05-14,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Kolkata Knight Riders,Chennai Super Kings,bat,Kolkata Knight Riders,,6.0,,,RK Singh
+1359536,2023,2023-05-15,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Gujarat Titans,34.0,,,,Shubman Gill
+1359537,2023,2023-05-16,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Mumbai Indians,Mumbai Indians,field,Lucknow Super Giants,5.0,,,,MP Stoinis
+1359538,2023,2023-05-17,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,Delhi Capitals,Punjab Kings,Punjab Kings,field,Delhi Capitals,15.0,,,,RR Rossouw
+1359539,2023,2023-05-18,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Royal Challengers Bangalore,,8.0,,,V Kohli
+1359540,2023,2023-05-19,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,Punjab Kings,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,4.0,,,D Padikkal
+1359541,2023,2023-05-20,"Arun Jaitley Stadium, Delhi",Delhi,Chennai Super Kings,Delhi Capitals,Chennai Super Kings,bat,Chennai Super Kings,77.0,,,,RD Gaikwad
+1359542,2023,2023-05-20,"Eden Gardens, Kolkata",Kolkata,Lucknow Super Giants,Kolkata Knight Riders,Kolkata Knight Riders,field,Lucknow Super Giants,1.0,,,,N Pooran
+1359543,2023,2023-05-21,"Wankhede Stadium, Mumbai",Mumbai,Sunrisers Hyderabad,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,8.0,,,C Green
+1359544,2023,2023-05-21,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bangalore,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,6.0,,,Shubman Gill
+1370350,2023,2023-05-23,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Gujarat Titans,Gujarat Titans,field,Chennai Super Kings,15.0,,,,RD Gaikwad
+1370351,2023,2023-05-24,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Mumbai Indians,Lucknow Super Giants,Mumbai Indians,bat,Mumbai Indians,81.0,,,,Akash Madhwal
+1370352,2023,2023-05-26,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Mumbai Indians,Mumbai Indians,field,Gujarat Titans,62.0,,,,Shubman Gill
+1370353,2023,2023-05-29,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,,5.0,,D/L,DP Conway
+1422119,2024,2024-03-22,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Royal Challengers Bengaluru,Chennai Super Kings,Royal Challengers Bengaluru,bat,Chennai Super Kings,,6.0,,,Mustafizur Rahman
+1422120,2024,2024-03-23,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,Delhi Capitals,Punjab Kings,Punjab Kings,field,Punjab Kings,,4.0,,,SM Curran
+1422121,2024,2024-03-23,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Kolkata Knight Riders,4.0,,,,AD Russell
+1422122,2024,2024-03-24,"Sawai Mansingh Stadium, Jaipur",Jaipur,Rajasthan Royals,Lucknow Super Giants,Rajasthan Royals,bat,Rajasthan Royals,20.0,,,,SV Samson
+1422123,2024,2024-03-24,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Mumbai Indians,Mumbai Indians,field,Gujarat Titans,6.0,,,,B Sai Sudharsan
+1422124,2024,2024-03-25,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Punjab Kings,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,4.0,,,V Kohli
+1422125,2024,2024-03-26,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Gujarat Titans,Gujarat Titans,field,Chennai Super Kings,63.0,,,,S Dube
+1422126,2024,2024-03-27,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Mumbai Indians,Mumbai Indians,field,Sunrisers Hyderabad,31.0,,,,Abhishek Sharma
+1422127,2024,2024-03-28,"Sawai Mansingh Stadium, Jaipur",Jaipur,Rajasthan Royals,Delhi Capitals,Delhi Capitals,field,Rajasthan Royals,12.0,,,,R Parag
+1422128,2024,2024-03-29,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bengaluru,Kolkata Knight Riders,Kolkata Knight Riders,field,Kolkata Knight Riders,,7.0,,,SP Narine
+1422129,2024,2024-03-30,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Punjab Kings,Lucknow Super Giants,bat,Lucknow Super Giants,21.0,,,,MP Yadav
+1422130,2024,2024-03-31,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Sunrisers Hyderabad,Gujarat Titans,Sunrisers Hyderabad,bat,Gujarat Titans,,7.0,,,MM Sharma
+1422131,2024,2024-03-31,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",Visakhapatnam,Delhi Capitals,Chennai Super Kings,Delhi Capitals,bat,Delhi Capitals,20.0,,,,KK Ahmed
+1422132,2024,2024-04-01,"Wankhede Stadium, Mumbai",Mumbai,Mumbai Indians,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,6.0,,,TA Boult
+1422133,2024,2024-04-02,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Lucknow Super Giants,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Lucknow Super Giants,28.0,,,,MP Yadav
+1422134,2024,2024-04-03,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",Visakhapatnam,Kolkata Knight Riders,Delhi Capitals,Kolkata Knight Riders,bat,Kolkata Knight Riders,106.0,,,,SP Narine
+1422135,2024,2024-04-04,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Punjab Kings,Punjab Kings,field,Punjab Kings,,3.0,,,Shashank Singh
+1422136,2024,2024-04-05,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Chennai Super Kings,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Sunrisers Hyderabad,,6.0,,,Abhishek Sharma
+1422137,2024,2024-04-06,"Sawai Mansingh Stadium, Jaipur",Jaipur,Royal Challengers Bengaluru,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,6.0,,,JC Buttler
+1422138,2024,2024-04-07,"Wankhede Stadium, Mumbai",Mumbai,Mumbai Indians,Delhi Capitals,Delhi Capitals,field,Mumbai Indians,29.0,,,,R Shepherd
+1422139,2024,2024-04-07,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Gujarat Titans,Lucknow Super Giants,bat,Lucknow Super Giants,33.0,,,,Yash Thakur
+1426260,2024,2024-04-08,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Kolkata Knight Riders,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,,7.0,,,RA Jadeja
+1426261,2024,2024-04-09,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,Sunrisers Hyderabad,Punjab Kings,Punjab Kings,field,Sunrisers Hyderabad,2.0,,,,Nithish Kumar Reddy
+1426262,2024,2024-04-10,"Sawai Mansingh Stadium, Jaipur",Jaipur,Rajasthan Royals,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,3.0,,,Rashid Khan
+1426263,2024,2024-04-11,"Wankhede Stadium, Mumbai",Mumbai,Royal Challengers Bengaluru,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,7.0,,,JJ Bumrah
+1426264,2024,2024-04-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Delhi Capitals,Lucknow Super Giants,bat,Delhi Capitals,,6.0,,,Kuldeep Yadav
+1426265,2024,2024-04-13,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,Punjab Kings,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,3.0,,,SO Hetmyer
+1426266,2024,2024-04-14,"Eden Gardens, Kolkata",Kolkata,Lucknow Super Giants,Kolkata Knight Riders,Kolkata Knight Riders,field,Kolkata Knight Riders,,8.0,,,PD Salt
+1426267,2024,2024-04-14,"Wankhede Stadium, Mumbai",Mumbai,Chennai Super Kings,Mumbai Indians,Mumbai Indians,field,Chennai Super Kings,20.0,,,,M Pathirana
+1426268,2024,2024-04-15,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Sunrisers Hyderabad,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Sunrisers Hyderabad,25.0,,,,TM Head
+1426269,2024,2024-04-16,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,2.0,,,JC Buttler
+1426270,2024,2024-04-17,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,,6.0,,,RR Pant
+1426271,2024,2024-04-18,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,Mumbai Indians,Punjab Kings,Punjab Kings,field,Mumbai Indians,9.0,,,,JJ Bumrah
+1426272,2024,2024-04-19,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Chennai Super Kings,Lucknow Super Giants,Lucknow Super Giants,field,Lucknow Super Giants,,8.0,,,KL Rahul
+1426273,2024,2024-04-20,"Arun Jaitley Stadium, Delhi",Delhi,Sunrisers Hyderabad,Delhi Capitals,Delhi Capitals,field,Sunrisers Hyderabad,67.0,,,,TM Head
+1426274,2024,2024-04-21,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Kolkata Knight Riders,1.0,,,,AD Russell
+1426275,2024,2024-04-21,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,Punjab Kings,Gujarat Titans,Punjab Kings,bat,Gujarat Titans,,3.0,,,R Sai Kishore
+1426276,2024,2024-04-22,"Sawai Mansingh Stadium, Jaipur",Jaipur,Mumbai Indians,Rajasthan Royals,Mumbai Indians,bat,Rajasthan Royals,,9.0,,,Sandeep Sharma
+1426277,2024,2024-04-23,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Lucknow Super Giants,Lucknow Super Giants,field,Lucknow Super Giants,,6.0,,,MP Stoinis
+1426278,2024,2024-04-24,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Gujarat Titans,Gujarat Titans,field,Delhi Capitals,4.0,,,,RR Pant
+1426279,2024,2024-04-25,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Royal Challengers Bengaluru,Sunrisers Hyderabad,Royal Challengers Bengaluru,bat,Royal Challengers Bengaluru,35.0,,,,RM Patidar
+1426280,2024,2024-04-26,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Punjab Kings,Punjab Kings,field,Punjab Kings,,8.0,,,JM Bairstow
+1426281,2024,2024-04-27,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Mumbai Indians,Mumbai Indians,field,Delhi Capitals,10.0,,,,J Fraser-McGurk
+1426282,2024,2024-04-27,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,7.0,,,SV Samson
+1426283,2024,2024-04-28,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,9.0,,,WG Jacks
+1426284,2024,2024-04-28,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Chennai Super Kings,78.0,,,,RD Gaikwad
+1426285,2024,2024-04-29,"Eden Gardens, Kolkata",Kolkata,Delhi Capitals,Kolkata Knight Riders,Delhi Capitals,bat,Kolkata Knight Riders,,7.0,,,CV Varun
+1426286,2024,2024-04-30,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Mumbai Indians,Lucknow Super Giants,Lucknow Super Giants,field,Lucknow Super Giants,,4.0,,,MP Stoinis
+1426287,2024,2024-05-01,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Punjab Kings,Punjab Kings,field,Punjab Kings,,7.0,,,Harpreet Brar
+1426288,2024,2024-05-02,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Rajasthan Royals,Sunrisers Hyderabad,bat,Sunrisers Hyderabad,1.0,,,,B Kumar
+1426289,2024,2024-05-03,"Wankhede Stadium, Mumbai",Mumbai,Kolkata Knight Riders,Mumbai Indians,Mumbai Indians,field,Kolkata Knight Riders,24.0,,,,VR Iyer
+1426290,2024,2024-05-04,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Gujarat Titans,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,4.0,,,Mohammed Siraj
+1426291,2024,2024-05-05,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,Chennai Super Kings,Punjab Kings,Punjab Kings,field,Chennai Super Kings,28.0,,,,RA Jadeja
+1426292,2024,2024-05-05,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Kolkata Knight Riders,Lucknow Super Giants,Lucknow Super Giants,field,Kolkata Knight Riders,98.0,,,,SP Narine
+1426293,2024,2024-05-06,"Wankhede Stadium, Mumbai",Mumbai,Sunrisers Hyderabad,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,7.0,,,SA Yadav
+1426294,2024,2024-05-07,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Rajasthan Royals,Rajasthan Royals,field,Delhi Capitals,20.0,,,,Kuldeep Yadav
+1426295,2024,2024-05-08,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Lucknow Super Giants,Sunrisers Hyderabad,Lucknow Super Giants,bat,Sunrisers Hyderabad,,10.0,,,TM Head
+1426296,2024,2024-05-09,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,Royal Challengers Bengaluru,Punjab Kings,Punjab Kings,field,Royal Challengers Bengaluru,60.0,,,,V Kohli
+1426297,2024,2024-05-10,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Chennai Super Kings,Chennai Super Kings,field,Gujarat Titans,35.0,,,,Shubman Gill
+1426298,2024,2024-05-11,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Mumbai Indians,Mumbai Indians,field,Kolkata Knight Riders,18.0,,,,CV Varun
+1426299,2024,2024-05-12,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Rajasthan Royals,Chennai Super Kings,Rajasthan Royals,bat,Chennai Super Kings,,5.0,,,Simarjeet Singh
+1426300,2024,2024-05-12,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bengaluru,Delhi Capitals,Delhi Capitals,field,Royal Challengers Bengaluru,47.0,,,,C Green
+1426302,2024,2024-05-14,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Lucknow Super Giants,Lucknow Super Giants,field,Delhi Capitals,19.0,,,,I Sharma
+1426303,2024,2024-05-15,"Barsapara Cricket Stadium, Guwahati",Guwahati,Rajasthan Royals,Punjab Kings,Rajasthan Royals,bat,Punjab Kings,,5.0,,,SM Curran
+1426305,2024,2024-05-17,"Wankhede Stadium, Mumbai",Mumbai,Lucknow Super Giants,Mumbai Indians,Mumbai Indians,field,Lucknow Super Giants,18.0,,,,N Pooran
+1426306,2024,2024-05-18,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bengaluru,Chennai Super Kings,Chennai Super Kings,field,Royal Challengers Bengaluru,27.0,,,,F du Plessis
+1426307,2024,2024-05-19,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Punjab Kings,Sunrisers Hyderabad,Punjab Kings,bat,Sunrisers Hyderabad,,4.0,,,Abhishek Sharma
+1426309,2024,2024-05-21,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Sunrisers Hyderabad,Kolkata Knight Riders,Sunrisers Hyderabad,bat,Kolkata Knight Riders,,8.0,,,MA Starc
+1426310,2024,2024-05-22,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Royal Challengers Bengaluru,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,4.0,,,R Ashwin
+1426311,2024,2024-05-24,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Sunrisers Hyderabad,Rajasthan Royals,Rajasthan Royals,field,Sunrisers Hyderabad,36.0,,,,Shahbaz Ahmed
+1426312,2024,2024-05-26,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Sunrisers Hyderabad,Kolkata Knight Riders,Sunrisers Hyderabad,bat,Kolkata Knight Riders,,8.0,,,MA Starc
+1473438,2025,2025-03-22,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,7.0,,,KH Pandya
+1473439,2025,2025-03-23,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Rajasthan Royals,Rajasthan Royals,field,Sunrisers Hyderabad,44.0,,,,Ishan Kishan
+1473440,2025,2025-03-23,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Mumbai Indians,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,,4.0,,,Noor Ahmad
+1473441,2025,2025-03-24,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",Visakhapatnam,Lucknow Super Giants,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,,1.0,,,Ashutosh Sharma
+1473442,2025,2025-03-25,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Punjab Kings,Gujarat Titans,Gujarat Titans,field,Punjab Kings,11.0,,,,SS Iyer
+1473443,2025,2025-03-26,"Barsapara Cricket Stadium, Guwahati",Guwahati,Rajasthan Royals,Kolkata Knight Riders,Kolkata Knight Riders,field,Kolkata Knight Riders,,8.0,,,Q de Kock
+1473444,2025,2025-03-27,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Lucknow Super Giants,Lucknow Super Giants,field,Lucknow Super Giants,,5.0,,,SN Thakur
+1473445,2025,2025-03-28,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Royal Challengers Bengaluru,Chennai Super Kings,Chennai Super Kings,field,Royal Challengers Bengaluru,50.0,,,,RM Patidar
+1473446,2025,2025-03-29,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Mumbai Indians,Mumbai Indians,field,Gujarat Titans,36.0,,,,M Prasidh Krishna
+1473447,2025,2025-03-30,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",Visakhapatnam,Sunrisers Hyderabad,Delhi Capitals,Sunrisers Hyderabad,bat,Delhi Capitals,,7.0,,,MA Starc
+1473448,2025,2025-03-30,"Barsapara Cricket Stadium, Guwahati",Guwahati,Rajasthan Royals,Chennai Super Kings,Chennai Super Kings,field,Rajasthan Royals,6.0,,,,N Rana
+1473449,2025,2025-03-31,"Wankhede Stadium, Mumbai",Mumbai,Kolkata Knight Riders,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,8.0,,,Ashwani Kumar
+1473450,2025,2025-04-01,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Punjab Kings,Punjab Kings,field,Punjab Kings,,8.0,,,P Simran Singh
+1473451,2025,2025-04-02,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bengaluru,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,8.0,,,Mohammed Siraj
+1473452,2025,2025-04-03,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Kolkata Knight Riders,80.0,,,,VG Arora
+1473453,2025,2025-04-04,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Mumbai Indians,Mumbai Indians,field,Lucknow Super Giants,12.0,,,,DS Rathi
+1473455,2025,2025-04-05,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,Rajasthan Royals,Punjab Kings,Punjab Kings,field,Rajasthan Royals,50.0,,,,JC Archer
+1473454,2025,2025-04-05,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Delhi Capitals,Chennai Super Kings,Delhi Capitals,bat,Delhi Capitals,25.0,,,,KL Rahul
+1473457,2025,2025-04-06,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,7.0,,,Mohammed Siraj
+1473458,2025,2025-04-07,"Wankhede Stadium, Mumbai",Mumbai,Royal Challengers Bengaluru,Mumbai Indians,Mumbai Indians,field,Royal Challengers Bengaluru,12.0,,,,RM Patidar
+1473456,2025,2025-04-08,"Eden Gardens, Kolkata",Kolkata,Lucknow Super Giants,Kolkata Knight Riders,Kolkata Knight Riders,field,Lucknow Super Giants,4.0,,,,N Pooran
+1473459,2025,2025-04-08,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,Punjab Kings,Chennai Super Kings,Punjab Kings,bat,Punjab Kings,18.0,,,,Priyansh Arya
+1473460,2025,2025-04-09,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Rajasthan Royals,Rajasthan Royals,field,Gujarat Titans,58.0,,,,B Sai Sudharsan
+1473461,2025,2025-04-10,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bengaluru,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,,6.0,,,KL Rahul
+1473462,2025,2025-04-11,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Kolkata Knight Riders,Kolkata Knight Riders,field,Kolkata Knight Riders,,8.0,,,SP Narine
+1473463,2025,2025-04-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Gujarat Titans,Lucknow Super Giants,Lucknow Super Giants,field,Lucknow Super Giants,,6.0,,,AK Markram
+1473464,2025,2025-04-12,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Punjab Kings,Sunrisers Hyderabad,Punjab Kings,bat,Sunrisers Hyderabad,,8.0,,,Abhishek Sharma
+1473465,2025,2025-04-13,"Sawai Mansingh Stadium, Jaipur",Jaipur,Rajasthan Royals,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,9.0,,,PD Salt
+1473466,2025,2025-04-13,"Arun Jaitley Stadium, Delhi",Delhi,Mumbai Indians,Delhi Capitals,Delhi Capitals,field,Mumbai Indians,12.0,,,,KV Sharma
+1473467,2025,2025-04-14,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,,5.0,,,MS Dhoni
+1473468,2025,2025-04-15,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,Punjab Kings,Kolkata Knight Riders,Punjab Kings,bat,Punjab Kings,16.0,,,,YS Chahal
+1473469,2025,2025-04-16,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Rajasthan Royals,Rajasthan Royals,field,,,,tie,,MA Starc
+1473470,2025,2025-04-17,"Wankhede Stadium, Mumbai",Mumbai,Sunrisers Hyderabad,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,4.0,,,WG Jacks
+1473471,2025,2025-04-18,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bengaluru,Punjab Kings,Punjab Kings,field,Punjab Kings,,5.0,,,TH David
+1473472,2025,2025-04-19,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Delhi Capitals,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,7.0,,,JC Buttler
+1473473,2025,2025-04-19,"Sawai Mansingh Stadium, Jaipur",Jaipur,Lucknow Super Giants,Rajasthan Royals,Lucknow Super Giants,bat,Lucknow Super Giants,2.0,,,,Avesh Khan
+1473474,2025,2025-04-20,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",Mohali,Punjab Kings,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,7.0,,,V Kohli
+1473475,2025,2025-04-20,"Wankhede Stadium, Mumbai",Mumbai,Chennai Super Kings,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,9.0,,,RG Sharma
+1473476,2025,2025-04-21,"Eden Gardens, Kolkata",Kolkata,Gujarat Titans,Kolkata Knight Riders,Kolkata Knight Riders,field,Gujarat Titans,39.0,,,,Shubman Gill
+1473477,2025,2025-04-22,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,,8.0,,,Mukesh Kumar
+1473478,2025,2025-04-23,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,7.0,,,TA Boult
+1473479,2025,2025-04-24,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bengaluru,Rajasthan Royals,Rajasthan Royals,field,Royal Challengers Bengaluru,11.0,,,,JR Hazlewood
+1473480,2025,2025-04-25,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Sunrisers Hyderabad,,5.0,,,HV Patel
+1473481,2025,2025-04-26,"Eden Gardens, Kolkata",Kolkata,Punjab Kings,Kolkata Knight Riders,Punjab Kings,bat,,,,no result,,
+1473482,2025,2025-04-27,"Wankhede Stadium, Mumbai",Mumbai,Mumbai Indians,Lucknow Super Giants,Lucknow Super Giants,field,Mumbai Indians,54.0,,,,WG Jacks
+1473483,2025,2025-04-27,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,6.0,,,KH Pandya
+1473484,2025,2025-04-28,"Sawai Mansingh Stadium, Jaipur",Jaipur,Gujarat Titans,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,8.0,,,V Suryavanshi
+1473485,2025,2025-04-29,"Arun Jaitley Stadium, Delhi",Delhi,Kolkata Knight Riders,Delhi Capitals,Delhi Capitals,field,Kolkata Knight Riders,14.0,,,,SP Narine
+1473486,2025,2025-04-30,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Punjab Kings,Punjab Kings,field,Punjab Kings,,4.0,,,SS Iyer
+1473487,2025,2025-05-01,"Sawai Mansingh Stadium, Jaipur",Jaipur,Mumbai Indians,Rajasthan Royals,Rajasthan Royals,field,Mumbai Indians,100.0,,,,RD Rickelton
+1473488,2025,2025-05-02,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Gujarat Titans,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Gujarat Titans,38.0,,,,M Prasidh Krishna
+1473489,2025,2025-05-03,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bengaluru,Chennai Super Kings,Chennai Super Kings,field,Royal Challengers Bengaluru,2.0,,,,R Shepherd
+1473490,2025,2025-05-04,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Rajasthan Royals,Kolkata Knight Riders,bat,Kolkata Knight Riders,1.0,,,,AD Russell
+1473491,2025,2025-05-04,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,Punjab Kings,Lucknow Super Giants,Lucknow Super Giants,field,Punjab Kings,37.0,,,,P Simran Singh
+1473492,2025,2025-05-05,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Delhi Capitals,Sunrisers Hyderabad,Sunrisers Hyderabad,field,,,,no result,,
+1473493,2025,2025-05-06,"Wankhede Stadium, Mumbai",Mumbai,Mumbai Indians,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,3.0,,D/L,Shubman Gill
+1473494,2025,2025-05-07,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Chennai Super Kings,Kolkata Knight Riders,bat,Chennai Super Kings,,2.0,,,Noor Ahmad
+1473495,2025,2025-05-08,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala,Punjab Kings,Delhi Capitals,Punjab Kings,bat,,,,no result,,
+1473497,2025,2025-05-18,"Sawai Mansingh Stadium, Jaipur",Jaipur,Punjab Kings,Rajasthan Royals,Punjab Kings,bat,Punjab Kings,10.0,,,,Harpreet Brar
+1473498,2025,2025-05-18,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,10.0,,,B Sai Sudharsan
+1473499,2025,2025-05-19,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Sunrisers Hyderabad,,6.0,,,Abhishek Sharma
+1473500,2025,2025-05-20,"Arun Jaitley Stadium, Delhi",Delhi,Chennai Super Kings,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,6.0,,,Akash Madhwal
+1473501,2025,2025-05-21,"Wankhede Stadium, Mumbai",Mumbai,Mumbai Indians,Delhi Capitals,Delhi Capitals,field,Mumbai Indians,59.0,,,,SA Yadav
+1473502,2025,2025-05-22,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Lucknow Super Giants,Gujarat Titans,Gujarat Titans,field,Lucknow Super Giants,33.0,,,,MR Marsh
+1473503,2025,2025-05-23,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Sunrisers Hyderabad,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Sunrisers Hyderabad,42.0,,,,Ishan Kishan
+1485779,2025,2025-05-24,"Sawai Mansingh Stadium, Jaipur",Jaipur,Punjab Kings,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,,6.0,,,Sameer Rizvi
+1473504,2025,2025-05-25,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Chennai Super Kings,Gujarat Titans,Chennai Super Kings,bat,Chennai Super Kings,83.0,,,,D Brevis
+1473505,2025,2025-05-25,"Arun Jaitley Stadium, Delhi",Delhi,Sunrisers Hyderabad,Kolkata Knight Riders,Sunrisers Hyderabad,bat,Sunrisers Hyderabad,110.0,,,,H Klaasen
+1473506,2025,2025-05-26,"Sawai Mansingh Stadium, Jaipur",Jaipur,Mumbai Indians,Punjab Kings,Punjab Kings,field,Punjab Kings,,7.0,,,JP Inglis
+1473507,2025,2025-05-27,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,6.0,,,JM Sharma
+1473508,2025,2025-05-29,"Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",New Chandigarh,Punjab Kings,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,8.0,,,Suyash Sharma
+1473509,2025,2025-05-30,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",New Chandigarh,Mumbai Indians,Gujarat Titans,Mumbai Indians,bat,Mumbai Indians,20.0,,,,RG Sharma
+1473510,2025,2025-06-01,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Mumbai Indians,Punjab Kings,Punjab Kings,field,Punjab Kings,,5.0,,,SS Iyer
+1473511,2025,2025-06-03,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Royal Challengers Bengaluru,Punjab Kings,Punjab Kings,field,Royal Challengers Bengaluru,6.0,,,,KH Pandya
+1527674,2026,2026-03-28,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Sunrisers Hyderabad,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,6.0,,,JA Duffy
+1527675,2026,2026-03-29,"Wankhede Stadium, Mumbai",Mumbai,Kolkata Knight Riders,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,,6.0,,,SN Thakur
+1527676,2026,2026-03-30,"Barsapara Cricket Stadium, Guwahati",Guwahati,Chennai Super Kings,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,8.0,,,N Burger
+1527677,2026,2026-03-31,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",New Chandigarh,Gujarat Titans,Punjab Kings,Punjab Kings,field,Punjab Kings,,3.0,,,C Connolly
+1527678,2026,2026-04-01,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,,6.0,,,Sameer Rizvi
+1527679,2026,2026-04-02,"Eden Gardens, Kolkata",Kolkata,Sunrisers Hyderabad,Kolkata Knight Riders,Kolkata Knight Riders,field,Sunrisers Hyderabad,65.0,,,,Nithish Kumar Reddy
+1527680,2026,2026-04-03,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Punjab Kings,Punjab Kings,field,Punjab Kings,,5.0,,,Priyansh Arya
+1527682,2026,2026-04-04,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Rajasthan Royals,Gujarat Titans,Rajasthan Royals,bat,Rajasthan Royals,6.0,,,,Ravi Bishnoi
+1527681,2026,2026-04-04,"Arun Jaitley Stadium, Delhi",Delhi,Mumbai Indians,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,,6.0,,,Sameer Rizvi
+1527683,2026,2026-04-05,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Lucknow Super Giants,Lucknow Super Giants,field,Lucknow Super Giants,,5.0,,,Mohammed Shami
+1527684,2026,2026-04-05,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bengaluru,Chennai Super Kings,Chennai Super Kings,field,Royal Challengers Bengaluru,43.0,,,,TH David
+1527685,2026,2026-04-06,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Punjab Kings,Kolkata Knight Riders,bat,,,,no result,,
+1527686,2026,2026-04-07,"Barsapara Cricket Stadium, Guwahati",Guwahati,Rajasthan Royals,Mumbai Indians,Mumbai Indians,field,Rajasthan Royals,27.0,,,,YBK Jaiswal
+1527687,2026,2026-04-08,"Arun Jaitley Stadium, Delhi",Delhi,Gujarat Titans,Delhi Capitals,Delhi Capitals,field,Gujarat Titans,1.0,,,,Rashid Khan
+1527688,2026,2026-04-09,"Eden Gardens, Kolkata",Kolkata,Kolkata Knight Riders,Lucknow Super Giants,Lucknow Super Giants,field,Lucknow Super Giants,,3.0,,,MD Choudhary
+1527689,2026,2026-04-10,"Barsapara Cricket Stadium, Guwahati",Guwahati,Royal Challengers Bengaluru,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,6.0,,,V Suryavanshi
+1527690,2026,2026-04-11,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",New Chandigarh,Sunrisers Hyderabad,Punjab Kings,Punjab Kings,field,Punjab Kings,,6.0,,,SS Iyer
+1527691,2026,2026-04-11,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Delhi Capitals,Delhi Capitals,field,Chennai Super Kings,23.0,,,,SV Samson
+1527692,2026,2026-04-12,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Lucknow Super Giants,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,7.0,,,M Prasidh Krishna
+1527693,2026,2026-04-12,"Wankhede Stadium, Mumbai",Mumbai,Royal Challengers Bengaluru,Mumbai Indians,Mumbai Indians,field,Royal Challengers Bengaluru,18.0,,,,PD Salt
+1529264,2026,2026-04-13,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Rajasthan Royals,Rajasthan Royals,field,Sunrisers Hyderabad,57.0,,,,PP Hinge
+1529265,2026,2026-04-14,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Kolkata Knight Riders,Kolkata Knight Riders,field,Chennai Super Kings,32.0,,,,Noor Ahmad
+1529266,2026,2026-04-15,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Lucknow Super Giants,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,5.0,,,JR Hazlewood
+1529267,2026,2026-04-16,"Wankhede Stadium, Mumbai",Mumbai,Mumbai Indians,Punjab Kings,Punjab Kings,field,Punjab Kings,,7.0,,,Arshdeep Singh
+1529268,2026,2026-04-17,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Kolkata Knight Riders,Gujarat Titans,Kolkata Knight Riders,bat,Gujarat Titans,,5.0,,,Shubman Gill
+1529269,2026,2026-04-18,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Royal Challengers Bengaluru,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,,6.0,,,T Stubbs
+1529270,2026,2026-04-18,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Chennai Super Kings,Chennai Super Kings,field,Sunrisers Hyderabad,10.0,,,,E Malinga
+1529271,2026,2026-04-19,"Eden Gardens, Kolkata",Kolkata,Rajasthan Royals,Kolkata Knight Riders,Rajasthan Royals,bat,Kolkata Knight Riders,,4.0,,,CV Varun
+1529272,2026,2026-04-19,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",New Chandigarh,Punjab Kings,Lucknow Super Giants,Lucknow Super Giants,field,Punjab Kings,54.0,,,,Priyansh Arya
+1529273,2026,2026-04-20,"Narendra Modi Stadium, Ahmedabad",Ahmedabad,Mumbai Indians,Gujarat Titans,Gujarat Titans,field,Mumbai Indians,99.0,,,,Tilak Varma
+1529274,2026,2026-04-21,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad,Sunrisers Hyderabad,Delhi Capitals,Delhi Capitals,field,Sunrisers Hyderabad,47.0,,,,Abhishek Sharma
+1529275,2026,2026-04-22,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Rajasthan Royals,Lucknow Super Giants,Lucknow Super Giants,field,Rajasthan Royals,40.0,,,,RA Jadeja
+1529276,2026,2026-04-23,"Wankhede Stadium, Mumbai",Mumbai,Chennai Super Kings,Mumbai Indians,Mumbai Indians,field,Chennai Super Kings,103.0,,,,SV Samson
+1529277,2026,2026-04-24,"M Chinnaswamy Stadium, Bengaluru",Bengaluru,Gujarat Titans,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,5.0,,,V Kohli
+1529278,2026,2026-04-25,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Punjab Kings,Delhi Capitals,bat,Punjab Kings,,6.0,,,KL Rahul
+1529279,2026,2026-04-25,"Sawai Mansingh Stadium, Jaipur",Jaipur,Rajasthan Royals,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Sunrisers Hyderabad,,5.0,,,Ishan Kishan
+1529280,2026,2026-04-26,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai,Chennai Super Kings,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,,8.0,,,K Rabada
+1529281,2026,2026-04-26,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow,Kolkata Knight Riders,Lucknow Super Giants,Lucknow Super Giants,field,,,,tie,,RK Singh
+1529282,2026,2026-04-27,"Arun Jaitley Stadium, Delhi",Delhi,Delhi Capitals,Royal Challengers Bengaluru,Royal Challengers Bengaluru,field,Royal Challengers Bengaluru,,9.0,,,JR Hazlewood
+1529283,2026,2026-04-28,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",New Chandigarh,Punjab Kings,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,,6.0,,,D Ferreira
