@@ -13,9 +13,11 @@ from pathlib import Path
 import requests
 from tqdm import tqdm
 
+from datetime import datetime, timedelta, timezone
+
 CRICSHEET_URL = "https://cricsheet.org/downloads/ipl_json.zip"
 RAW_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
-SEASONS_KEEP = {"2023", "2024", "2025", "2026"}
+WINDOW_DAYS = 365 * 2  # rolling 2-year window from "today"
 
 
 def download_zip() -> bytes:
@@ -32,7 +34,17 @@ def download_zip() -> bytes:
 
 
 def extract(zip_bytes: bytes) -> int:
+    """Keep only matches whose date falls within the rolling 2-year window."""
     RAW_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Wipe existing files so old matches drop off naturally
+    for old in RAW_DIR.glob("*.json"):
+        old.unlink()
+
+    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=WINDOW_DAYS)).date()
+    today = datetime.now(timezone.utc).date()
+    print(f"Rolling window: {cutoff_date} → {today}")
+
     kept = 0
     with zipfile.ZipFile(io.BytesIO(zip_bytes)) as zf:
         names = [n for n in zf.namelist() if n.endswith(".json")]
@@ -42,8 +54,14 @@ def extract(zip_bytes: bytes) -> int:
                     data = json.load(f)
                 except json.JSONDecodeError:
                     continue
-            season = str(data.get("info", {}).get("season", "")).split("/")[0]
-            if season not in SEASONS_KEEP:
+            dates = data.get("info", {}).get("dates", [])
+            if not dates:
+                continue
+            try:
+                m_date = datetime.strptime(dates[0], "%Y-%m-%d").date()
+            except (ValueError, TypeError):
+                continue
+            if m_date < cutoff_date or m_date > today:
                 continue
             out = RAW_DIR / Path(name).name
             out.write_text(json.dumps(data))
