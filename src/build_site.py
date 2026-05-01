@@ -442,11 +442,22 @@ def featured_card(p: dict, matches: pd.DataFrame, deliveries: pd.DataFrame) -> s
         </div>
 
         <!-- Verdict row -->
-        <div class="mt-7 flex items-center justify-between gap-3">
+        <div class="mt-7 flex items-center justify-between gap-3 flex-wrap">
           <div>
             <div class="text-[11px] uppercase tracking-widest text-white/40">Predicted winner</div>
             <div class="font-display text-2xl mt-1"><span class="gradient-text">{p['winner']}</span></div>
           </div>
+          <a href="https://www.espncricinfo.com/series/ipl-2026-1510719" target="_blank" rel="noopener"
+             class="watch-btn group inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold transition"
+             style="background: linear-gradient(135deg, var(--t1), var(--t2)); color: white;
+                    box-shadow: 0 0 36px -10px color-mix(in srgb, var(--t1) 60%, transparent);">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
+            </span>
+            Watch live
+            <svg class="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
           <div class="text-right">
             <div class="text-[11px] uppercase tracking-widest text-white/40">Venue</div>
             <div class="text-xs text-white/70 mt-1 truncate max-w-xs">{p['venue']}</div>
