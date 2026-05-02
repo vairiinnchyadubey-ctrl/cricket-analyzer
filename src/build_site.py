@@ -601,10 +601,10 @@ def backtest_table(rows: list[dict]) -> str:
           <td class="p-4">
             <span class="inline-flex items-center gap-2">
               <span class="px-2 py-0.5 rounded-md font-bold text-white text-xs"
-                    style="background: linear-gradient(135deg, {c1c[0]}, {c1c[1]}); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.15);">{m['team1_init']}</span>
+                    style="background: linear-gradient(135deg, color-mix(in srgb, {c1c[0]} 85%, white), color-mix(in srgb, {c1c[0]} 50%, #ffd17a)); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25), 0 1px 4px rgba(0,0,0,0.4);">{m['team1_init']}</span>
               <span class="text-white/40 text-xs">vs</span>
               <span class="px-2 py-0.5 rounded-md font-bold text-white text-xs"
-                    style="background: linear-gradient(135deg, {c2c[0]}, {c2c[1]}); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.15);">{m['team2_init']}</span>
+                    style="background: linear-gradient(135deg, color-mix(in srgb, {c2c[0]} 85%, white), color-mix(in srgb, {c2c[0]} 50%, #ffd17a)); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25), 0 1px 4px rgba(0,0,0,0.4);">{m['team2_init']}</span>
             </span>
           </td>
           <td class="p-4 text-white/80 tabular-nums">{m['p1']:.2f}</td>
@@ -632,10 +632,10 @@ def archive_cards(predictions: list[dict]) -> str:
           <summary class="cursor-pointer flex items-center justify-between list-none gap-4">
             <div class="flex items-center gap-4 min-w-0">
               <div class="flex -space-x-2 shrink-0">
-                <div class="w-10 h-10 rounded-full flex items-center justify-center font-display font-bold text-sm ring-2 ring-ink-950"
-                     style="background: linear-gradient(135deg,{c1[0]},{c1[1]})">{p['team1_init']}</div>
-                <div class="w-10 h-10 rounded-full flex items-center justify-center font-display font-bold text-sm ring-2 ring-ink-950"
-                     style="background: linear-gradient(135deg,{c2[0]},{c2[1]})">{p['team2_init']}</div>
+                <div class="w-10 h-10 rounded-full flex items-center justify-center font-display font-bold text-sm ring-2 ring-ink-950 text-white"
+                     style="background: linear-gradient(135deg, color-mix(in srgb, {c1[0]} 85%, white), color-mix(in srgb, {c1[0]} 50%, #ffd17a));">{p['team1_init']}</div>
+                <div class="w-10 h-10 rounded-full flex items-center justify-center font-display font-bold text-sm ring-2 ring-ink-950 text-white"
+                     style="background: linear-gradient(135deg, color-mix(in srgb, {c2[0]} 85%, white), color-mix(in srgb, {c2[0]} 50%, #ffd17a));">{p['team2_init']}</div>
               </div>
               <div class="min-w-0">
                 <div class="text-xs text-white/40">{p['date']}</div>
