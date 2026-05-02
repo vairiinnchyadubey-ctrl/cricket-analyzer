@@ -600,14 +600,16 @@ def backtest_table(rows: list[dict]) -> str:
           <td class="p-4 text-white/60 tabular-nums">{m['date']}</td>
           <td class="p-4">
             <span class="inline-flex items-center gap-2">
-              <span class="font-medium" style="color:{c1c[1]}">{m['team1_init']}</span>
-              <span class="text-white/30 text-xs">vs</span>
-              <span class="font-medium" style="color:{c2c[1]}">{m['team2_init']}</span>
+              <span class="px-2 py-0.5 rounded-md font-bold text-white text-xs"
+                    style="background: linear-gradient(135deg, {c1c[0]}, {c1c[1]}); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.15);">{m['team1_init']}</span>
+              <span class="text-white/40 text-xs">vs</span>
+              <span class="px-2 py-0.5 rounded-md font-bold text-white text-xs"
+                    style="background: linear-gradient(135deg, {c2c[0]}, {c2c[1]}); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.15);">{m['team2_init']}</span>
             </span>
           </td>
-          <td class="p-4 text-white/70 tabular-nums">{m['p1']:.2f}</td>
-          <td class="p-4">{TEAM_INITIALS.get(m['predicted'], m['predicted'])}</td>
-          <td class="p-4 text-white/70">{TEAM_INITIALS.get(m['actual'], m['actual'])}</td>
+          <td class="p-4 text-white/80 tabular-nums">{m['p1']:.2f}</td>
+          <td class="p-4 text-white font-semibold">{TEAM_INITIALS.get(m['predicted'], m['predicted'])}</td>
+          <td class="p-4 text-white/85 font-semibold">{TEAM_INITIALS.get(m['actual'], m['actual'])}</td>
           <td class="p-4 text-center text-xl {cls}">{sym}</td>
         </tr>""")
     return "\n".join(out)
