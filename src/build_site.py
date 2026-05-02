@@ -538,19 +538,19 @@ def featured_card(p: dict, matches: pd.DataFrame, deliveries: pd.DataFrame) -> s
           <div class="text-[11px] uppercase tracking-widest text-white/40 mb-3">Top performers · 2026</div>
           <div class="grid grid-cols-2 gap-5 text-sm">
             <div>
-              <div class="text-[10px] uppercase tracking-widest mb-2" style="color:{c1[1]}">{p['team1_init']} batters</div>
+              <div class="text-[10px] uppercase tracking-widest mb-2" style="color: color-mix(in srgb, {c1[0]} 65%, #ffd17a);">{p['team1_init']} batters</div>
               {render_players(t1_bat, "runs", "sr", " r", " sr")}
             </div>
             <div>
-              <div class="text-[10px] uppercase tracking-widest mb-2" style="color:{c2[1]}">{p['team2_init']} batters</div>
+              <div class="text-[10px] uppercase tracking-widest mb-2" style="color: color-mix(in srgb, {c2[0]} 65%, #ffd17a);">{p['team2_init']} batters</div>
               {render_players(t2_bat, "runs", "sr", " r", " sr")}
             </div>
             <div>
-              <div class="text-[10px] uppercase tracking-widest mb-2 mt-2" style="color:{c1[1]}">{p['team1_init']} bowlers</div>
+              <div class="text-[10px] uppercase tracking-widest mb-2 mt-2" style="color: color-mix(in srgb, {c1[0]} 65%, #ffd17a);">{p['team1_init']} bowlers</div>
               {render_players(t1_bowl, "wickets", "er", "w", " er")}
             </div>
             <div>
-              <div class="text-[10px] uppercase tracking-widest mb-2 mt-2" style="color:{c2[1]}">{p['team2_init']} bowlers</div>
+              <div class="text-[10px] uppercase tracking-widest mb-2 mt-2" style="color: color-mix(in srgb, {c2[0]} 65%, #ffd17a);">{p['team2_init']} bowlers</div>
               {render_players(t2_bowl, "wickets", "er", "w", " er")}
             </div>
           </div>
