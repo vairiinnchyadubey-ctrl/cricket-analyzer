@@ -703,17 +703,34 @@ HTML = r"""<!doctype html>
     width: 120px; height: 120px; border-radius: 50%;
     background: radial-gradient(circle at 30% 30%, var(--t1-2), var(--t1) 60%, var(--t2) 100%);
     filter: blur(0.5px) drop-shadow(0 20px 40px color-mix(in srgb, var(--t1) 40%, transparent));
-    opacity: 0.18; animation: drift 20s ease-in-out infinite;
+    opacity: 0.18;
   }
   .float-ball::before, .float-ball::after { content:''; position:absolute; left:8%; right:8%; height:1.5px;
     background: rgba(255,255,255,0.5); border-radius:1px; opacity:0.6; }
   .float-ball::before { top: 32%; }
   .float-ball::after { bottom: 32%; }
-  @keyframes drift {
-    0%,100% { transform: translate(80vw, 30vh) rotate(0deg); }
-    50%     { transform: translate(20vw, 60vh) rotate(180deg); }
-  }
-  .float-ball.b2 { width: 80px; height: 80px; opacity: 0.12; animation-duration: 28s; animation-delay: -7s; }
+
+  /* 7 different drift paths, 7 different speeds */
+  .b1 { animation: drift1 24s ease-in-out infinite; }
+  .b2 { animation: drift2 32s ease-in-out infinite -8s;  width: 80px;  height: 80px;  opacity: 0.12; }
+  .b3 { animation: drift3 40s ease-in-out infinite -15s; width: 60px;  height: 60px;  opacity: 0.10;
+        background: radial-gradient(circle at 30% 30%, #ffd17a, var(--t2) 70%); }
+  .b4 { animation: drift4 28s ease-in-out infinite -3s;  width: 100px; height: 100px; opacity: 0.14;
+        background: radial-gradient(circle at 30% 30%, var(--t2-2), var(--t2) 70%); }
+  .b5 { animation: drift5 36s ease-in-out infinite -20s; width: 45px;  height: 45px;  opacity: 0.16;
+        background: radial-gradient(circle at 30% 30%, #fff, var(--t1) 70%); }
+  .b6 { animation: drift6 50s ease-in-out infinite -10s; width: 140px; height: 140px; opacity: 0.08;
+        background: radial-gradient(circle at 30% 30%, var(--t1-2), var(--t1) 60%, #ff8e72 100%); }
+  .b7 { animation: drift7 22s ease-in-out infinite -25s; width: 36px;  height: 36px;  opacity: 0.20;
+        background: radial-gradient(circle at 30% 30%, #ffd17a 0%, #d4351b 60%, #5b1006 100%); }
+
+  @keyframes drift1 { 0%,100% { transform: translate(80vw, 20vh) rotate(0deg);   } 50% { transform: translate(15vw, 65vh) rotate(180deg);  } }
+  @keyframes drift2 { 0%,100% { transform: translate(15vw, 25vh) rotate(0deg);   } 50% { transform: translate(75vw, 70vh) rotate(-180deg); } }
+  @keyframes drift3 { 0%,100% { transform: translate(50vw, 80vh) rotate(0deg);   } 50% { transform: translate(40vw, 10vh) rotate(360deg);  } }
+  @keyframes drift4 { 0%,100% { transform: translate(85vw, 75vh) rotate(0deg);   } 50% { transform: translate(20vw, 30vh) rotate(180deg);  } }
+  @keyframes drift5 { 0%,100% { transform: translate(10vw, 50vh) rotate(0deg);   } 33% { transform: translate(50vw, 20vh) rotate(120deg); } 66% { transform: translate(85vw, 60vh) rotate(240deg); } }
+  @keyframes drift6 { 0%,100% { transform: translate(60vw, 90vh) rotate(0deg);   } 50% { transform: translate(25vw, 40vh) rotate(-180deg); } }
+  @keyframes drift7 { 0%,100% { transform: translate(30vw, 15vh) rotate(0deg);   } 25% { transform: translate(70vw, 35vh) rotate(90deg); } 50% { transform: translate(60vw, 80vh) rotate(180deg); } 75% { transform: translate(15vw, 50vh) rotate(270deg); } }
 
   /* Confetti on the winner pill */
   .winner-pill { position: relative; overflow: hidden; }
@@ -813,8 +830,13 @@ HTML = r"""<!doctype html>
 </head>
 <body class="font-sans text-white antialiased grain selection:bg-accent/30 selection:text-white">
 <div class="scroll-prog" id="prog"></div>
-<div class="float-ball" aria-hidden="true"></div>
+<div class="float-ball b1" aria-hidden="true"></div>
 <div class="float-ball b2" aria-hidden="true"></div>
+<div class="float-ball b3" aria-hidden="true"></div>
+<div class="float-ball b4" aria-hidden="true"></div>
+<div class="float-ball b5" aria-hidden="true"></div>
+<div class="float-ball b6" aria-hidden="true"></div>
+<div class="float-ball b7" aria-hidden="true"></div>
 
 <!-- NAV -->
 <header class="sticky top-0 z-30 backdrop-blur-xl bg-ink-950/70 border-b border-white/5">
@@ -1034,8 +1056,8 @@ HTML = r"""<!doctype html>
     orb.addEventListener('mouseleave', () => { orb.style.transform = ''; });
   });
 
-  // Cursor-tracking floating ball
-  const ball = document.querySelector('.float-ball');
+  // Cursor-tracking floating ball (just the first, larger one)
+  const ball = document.querySelector('.float-ball.b1');
   if (ball) {
     let mx = window.innerWidth*0.5, my = window.innerHeight*0.4;
     let cx = mx, cy = my;
