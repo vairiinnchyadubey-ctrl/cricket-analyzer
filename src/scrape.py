@@ -17,7 +17,7 @@ from datetime import datetime, timedelta, timezone
 
 CRICSHEET_URL = "https://cricsheet.org/downloads/ipl_json.zip"
 RAW_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
-WINDOW_DAYS = 365 * 2  # rolling 2-year window from "today"
+WINDOW_DAYS = 365 * 5  # rolling 5-year window for full evaluation
 
 
 def download_zip() -> bytes:
