@@ -57,9 +57,12 @@ def parse_prediction(md_path: Path) -> dict:
         return m.group(1).strip() if m else default
 
     match = find(r"\*\*Match\*\*:\s*(.+)$")
+    # Strip parentheticals like ("El Clasico") that break team-name lookups
+    match = re.sub(r"\s*\([^)]*\)", "", match).strip()
     venue = find(r"\*\*Venue\*\*:\s*(.+)$")
     teams = match.split(" vs ") if " vs " in match else ["Team 1", "Team 2"]
     team1, team2 = (teams + ["",""])[:2]
+    team1, team2 = team1.strip(), team2.strip()
 
     winner = find(r"\*\*Winner\*\*\s*\|\s*(.+?)\s*\|")
     probs = re.findall(r"P\(.+?\)\s*\|\s*([\d.]+)\s*\|", text)
