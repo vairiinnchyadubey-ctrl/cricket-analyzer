@@ -390,8 +390,11 @@ def featured_card(p: dict, matches: pd.DataFrame, deliveries: pd.DataFrame) -> s
             for it in items
         ])
 
-    pitch_class = "Batting paradise" if float(p["pitch"]["runs_per_wicket"] or 0) > 30 else \
-                  "Balanced track" if float(p["pitch"]["runs_per_wicket"] or 0) > 22 else "Bowler-friendly"
+    rpw = float(p["pitch"]["runs_per_wicket"] or 0)
+    pitch_class = ("Batting paradise" if rpw > 35
+                   else "Batting-friendly" if rpw > 30
+                   else "Balanced track" if rpw > 22
+                   else "Bowler-friendly")
 
     sixes_n = int(re.search(r"(\d+)", p["predicted_sixes"]).group(1)) if p["predicted_sixes"] else 0
     fours_n = int(re.search(r"(\d+)", p["predicted_fours"]).group(1)) if p["predicted_fours"] else 0

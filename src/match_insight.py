@@ -160,15 +160,12 @@ def predict_winner(team1: str, team2: str, venue: str,
         df[c + "_enc"] = le.transform(df[c].astype(str))
         encoders[c] = le
 
-    # ENSEMBLE: average two models — full features (with team identity)
-    # and an "anti-brand" version that drops team_enc / team2_enc.
+    # MODEL V01: single GradientBoosting on the 16-feature baseline.
+    # This is the variant that achieved 8/10 on the last-10 backtest.
     full_cols = NUMERIC + [c + "_enc" for c in CATS]
-    no_brand_cols = NUMERIC + ["venue_enc"]
     model_full = GradientBoostingClassifier(n_estimators=400, max_depth=3, learning_rate=0.05, random_state=42)
     model_full.fit(df[full_cols], df["target"])
-    model_nb = GradientBoostingClassifier(n_estimators=400, max_depth=3, learning_rate=0.05, random_state=42)
-    model_nb.fit(df[no_brand_cols], df["target"])
-    feat_cols = full_cols  # for the row-build below
+    feat_cols = full_cols
 
     # Build feature row for today's match using latest 2026-rolling state.
     # Easiest: take the most recent feature row that includes team1 (as either side)
@@ -224,13 +221,9 @@ def predict_winner(team1: str, team2: str, venue: str,
         row[c + "_enc"] = int(le.transform([v])[0]) if v in le.classes_ else -1
 
     X_full = pd.DataFrame([row])[full_cols]
-    X_nb = pd.DataFrame([row])[no_brand_cols]
-    p_full = float(model_full.predict_proba(X_full)[0, 1])
-    p_nb = float(model_nb.predict_proba(X_nb)[0, 1])
-    p1 = (p_full + p_nb) / 2
+    p1 = float(model_full.predict_proba(X_full)[0, 1])
     return p1, {"h2h_2026_t1_winrate": h2h_rate, "venue_t1_winrate_2026": t1_vw,
-                "venue_t2_winrate_2026": t2_vw,
-                "p_full": p_full, "p_no_brand": p_nb}
+                "venue_t2_winrate_2026": t2_vw}
 
 
 def main() -> None:
