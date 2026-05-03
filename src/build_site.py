@@ -1123,6 +1123,8 @@ def main() -> None:
 
     today = predictions[-1] if predictions else None
     today_date = today["date"] if today else ""
+    # All predictions sharing today's date (multiple matches per day)
+    todays_matches = [p for p in predictions if p["date"] == today_date]
 
     # gauge math
     circumference = 2 * math.pi * 50
@@ -1148,7 +1150,38 @@ def main() -> None:
     html = html.replace("__MATCH_TITLE__", match_title)
     html = html.replace("__KPI_STRIP__", kpi_strip(predictions, backtest))
     html = html.replace("__TODAY_DATE__", today_date)
-    html = html.replace("__FEATURED__", featured_card(today, matches, deliveries))
+    if len(todays_matches) > 1:
+        # Render the headline match + a small secondary strip for the others
+        primary_html = featured_card(today, matches, deliveries)
+        others = todays_matches[:-1]
+        secondary_cards = "\n".join([
+            f'''<a href="#archive" class="other-match glass rounded-2xl p-5 flex items-center gap-4 hover:bg-white/[0.03] transition">
+                  <div class="flex -space-x-2 shrink-0">
+                    <div class="w-11 h-11 rounded-full flex items-center justify-center font-display font-bold text-sm ring-2 ring-ink-950 text-white"
+                         style="background: linear-gradient(135deg, color-mix(in srgb, {TEAM_COLORS.get(p["team1_init"],("#444","#888"))[0]} 85%, white), color-mix(in srgb, {TEAM_COLORS.get(p["team1_init"],("#444","#888"))[0]} 50%, #ffd17a));">{p["team1_init"]}</div>
+                    <div class="w-11 h-11 rounded-full flex items-center justify-center font-display font-bold text-sm ring-2 ring-ink-950 text-white"
+                         style="background: linear-gradient(135deg, color-mix(in srgb, {TEAM_COLORS.get(p["team2_init"],("#444","#888"))[0]} 85%, white), color-mix(in srgb, {TEAM_COLORS.get(p["team2_init"],("#444","#888"))[0]} 50%, #ffd17a));">{p["team2_init"]}</div>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <div class="text-[10px] uppercase tracking-widest text-white/40">Also today</div>
+                    <div class="font-display text-base mt-0.5 truncate">{p["team1_init"]} vs {p["team2_init"]}</div>
+                    <div class="text-xs text-white/50 truncate">{p["venue"]}</div>
+                  </div>
+                  <div class="text-right shrink-0">
+                    <div class="text-[10px] uppercase tracking-widest text-white/40">Pick</div>
+                    <div class="font-display text-base font-semibold gradient-text">{TEAM_INITIALS.get(p["winner"], p["winner"][:3])}</div>
+                    <div class="text-[10px] text-white/40 mt-0.5">P · {p["p1"]} / {p["p2"]}</div>
+                  </div>
+                </a>'''
+            for p in others
+        ])
+        combined = (
+            f'<div class="space-y-5">{primary_html}'
+            f'<div class="grid sm:grid-cols-2 gap-4 mt-2">{secondary_cards}</div></div>'
+        )
+        html = html.replace("__FEATURED__", combined)
+    else:
+        html = html.replace("__FEATURED__", featured_card(today, matches, deliveries))
     html = html.replace("__BACKTEST_PCT__", str(int(backtest["accuracy"] * 100)))
     html = html.replace("__BACKTEST_CORRECT__", str(backtest["correct"]))
     html = html.replace("__BACKTEST_N__", str(backtest["n"]))
