@@ -85,6 +85,8 @@ def parse_prediction(md_path: Path) -> dict:
     if actual_winner.lower() in ("tbd", ""):
         actual_winner = ""
 
+    featured_flag = bool(re.search(r"\*\*Featured\*\*:\s*true", text, re.I))
+
     date_str = re.search(r"(\d{4}-\d{2}-\d{2})", md_path.stem)
     date = date_str.group(1) if date_str else ""
 
@@ -93,7 +95,7 @@ def parse_prediction(md_path: Path) -> dict:
         "team1": team1, "team2": team2,
         "team1_init": TEAM_INITIALS.get(team1, team1[:3].upper()),
         "team2_init": TEAM_INITIALS.get(team2, team2[:3].upper()),
-        "venue": venue, "winner": winner, "p1": p1, "p2": p2,
+        "venue": venue, "winner": winner, "p1": p1, "p2": p2, "featured": featured_flag,
         "predicted_score": score, "predicted_sixes": sixes, "predicted_fours": fours,
         "pitch": pitch, "actual_winner": actual_winner,
     }
@@ -1123,8 +1125,13 @@ def main() -> None:
 
     today = predictions[-1] if predictions else None
     today_date = today["date"] if today else ""
-    # All predictions sharing today's date (multiple matches per day)
     todays_matches = [p for p in predictions if p["date"] == today_date]
+    # Honor a Featured: true flag on any prediction file
+    featured_pick = next((p for p in todays_matches if p.get("featured")), None)
+    if featured_pick:
+        today = featured_pick
+        # Reorder so the featured one is "primary" and the others go in the secondary strip
+        todays_matches = [p for p in todays_matches if p is not featured_pick] + [featured_pick]
 
     # gauge math
     circumference = 2 * math.pi * 50
