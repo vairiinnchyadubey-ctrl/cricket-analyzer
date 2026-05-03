@@ -311,8 +311,15 @@ def main() -> None:
     teams_fours = t1s["avg_4s"] + t2s["avg_4s"]
     venue_sixes = vp["avg_sixes"] if vp else 14
     venue_fours = vp["avg_fours"] if vp else 26
-    six_proj = (teams_sixes + venue_sixes) / 2
-    four_proj = (teams_fours + venue_fours) / 2
+    venue_total = vp["avg_total_runs"] if vp else 350
+    # Tie boundaries to the predicted match total
+    predicted_total = t1_proj + t2_proj
+    score_factor = max(0.6, min(1.05, predicted_total / max(venue_total, 1)))
+    # Weight venue more (it's per-match accurate). Apply 0.82× correction on fours
+    # — empirically the team-innings sum overstates because batters average across
+    # full innings, but real matches often see early collapses that shorten innings.
+    six_proj  = (0.45 * teams_sixes + 0.55 * venue_sixes) * score_factor * 0.92
+    four_proj = (0.35 * teams_fours + 0.65 * venue_fours) * score_factor * 0.82
     print(f"Predicted 1st-innings total : {t1_proj:.0f}-{t2_proj:.0f} (range {min(t1_proj, t2_proj) - 15:.0f}-{max(t1_proj, t2_proj) + 15:.0f})")
     print(f"Predicted total sixes       : {six_proj:.0f}")
     print(f"Predicted total fours       : {four_proj:.0f}")
